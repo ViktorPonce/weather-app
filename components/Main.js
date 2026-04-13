@@ -6,7 +6,7 @@ export default function Main(){
     const [celcius, setCelsius] = useState(true);
     const [error, setError] = useState(null);
     
-    const WEATHERSTACK_KEY = "010184fcdad3d39577b518aff852681c"
+    const WEATHERSTACK_KEY = "insert key here"
 
     const getWeather = async () => {
         try {
